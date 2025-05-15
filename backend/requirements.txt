@@ -1,0 +1,10 @@
+flask
+flask-cors
+pymongo
+python-dotenv
+pytesseract
+pdf2image
+python-docx
+boto3
+sentence-transformers
+scikit-learn

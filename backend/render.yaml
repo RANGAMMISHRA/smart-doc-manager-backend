@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: smart-doc-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: MONGO_URI
+        value: your-mongodb-connection-string
+      - key: AWS_ACCESS_KEY_ID
+        value: your-aws-access-key
+      - key: AWS_SECRET_ACCESS_KEY
+        value: your-aws-secret-key
+      - key: AWS_BUCKET_NAME
+        value: smartdoc1
